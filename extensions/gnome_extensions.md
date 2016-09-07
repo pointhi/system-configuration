@@ -1,0 +1,11 @@
+https://extensions.gnome.org/extension/307/dash-to-dock/
+https://extensions.gnome.org/extension/905/refresh-wifi-connections/
+https://extensions.gnome.org/extension/906/sound-output-device-chooser/
+https://extensions.gnome.org/extension/7/removable-drive-menu/
+https://extensions.gnome.org/extension/118/no-topleft-hot-corner/
+https://extensions.gnome.org/extension/696/skype-integration/
+https://extensions.gnome.org/extension/904/disconnect-wifi/
+https://extensions.gnome.org/extension/782/pidgin-im-integration/
+https://extensions.gnome.org/extension/131/touchpad-indicator/
+https://extensions.gnome.org/extension/1031/topicons/
+https://extensions.gnome.org/extension/921/multi-monitors-add-on/

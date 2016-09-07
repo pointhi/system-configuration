@@ -1,3 +1,3 @@
-HTTPS Everywhere
-NoScript
-uBlock Origin
+* HTTPS Everywhere
+* NoScript
+* uBlock Origin

@@ -19,6 +19,7 @@ sudo pacman -S colordiff meld python2-dbus  # diff tools
 
 sudo pacman -S git svn # version control
 sudo pacman -S gitg # version control gui
+yaourt -S gitkraken # version control gui
 
 sudo pacman -S ghex # hex viewer
 

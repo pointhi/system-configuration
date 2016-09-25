@@ -20,3 +20,5 @@ sudo pacman -S krita
 sudo pacman -S gimp
 
 sudo pacman -S inkscape
+
+sudo pacman -S musescore # Create, play and print beautiful sheet music

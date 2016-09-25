@@ -18,7 +18,7 @@ sudo systemctl enable gdm.service
 ### Bash
 
 echo "
- https://askubuntu.com/questions/15926/how-to-avoid-duplicate-entries-in-bash-history
+# https://askubuntu.com/questions/15926/how-to-avoid-duplicate-entries-in-bash-history
 export HISTCONTROL=ignoreboth:erasedups
 " >> ~/.bashrc
 

@@ -26,3 +26,15 @@ export HISTCONTROL=ignoreboth:erasedups
 ### Add file templates
 
 cp "$SCRIPT_TEMPLATE_DIR/"* "$USER_TEMPLATE_DIR/"
+
+
+### Some desktop programs
+
+sudo pacman -S dconf-editor
+
+yaourt -S nautilus-typeahead
+
+
+### Some system settings
+
+gsettings set org.gnome.nautilus.preferences enable-interactive-search true

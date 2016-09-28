@@ -23,6 +23,7 @@ yaourt -S gitkraken # version control gui
 
 sudo pacman -S ghex # hex viewer
 
+sudo pacman -S cloc # code line counter
 
 ### Editors
 

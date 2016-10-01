@@ -34,5 +34,20 @@ sudo pacman -S eclipse-java
 
 #sudo pacman -S intellij-idea-community-edition
 
-yaourt -S atom-editor-bin
+sudo pacman -S atom
 
+yaourt -S arduino
+
+
+### Electonic/Hardware development
+
+sudo pacman -S kicad kicad-library kicad-library-3d # Electronic schematic and printed circuit board (PCB) design tools
+
+sudo pacman -S qucs # An integrated circuit simulator with a graphical user interface
+
+
+### Meachanical development
+
+sudo pacman -S openscad
+
+sudo pacman -S freecad

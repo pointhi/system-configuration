@@ -34,6 +34,8 @@ sudo pacman -S dconf-editor
 
 yaourt -S nautilus-typeahead
 
+sudo pacman -S gnome-clocks # TODO: 24 hour format?
+sudo pacman -S gnome-characters
 
 ### Some system settings
 

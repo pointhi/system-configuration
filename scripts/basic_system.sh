@@ -10,7 +10,7 @@ USER_TEMPLATE_DIR="$HOME_DIR/Vorlagen"  # TODO: more reliable way to get dir?
 
 ### Login Manager (GDM)
 
-sudo pacman -S gdm
+sudo pacman -S gdm gnome-screensaver
 sudo systemctl disable lightdm.service
 sudo systemctl enable gdm.service
 
@@ -40,3 +40,7 @@ sudo pacman -S gnome-characters
 ### Some system settings
 
 gsettings set org.gnome.nautilus.preferences enable-interactive-search true
+
+# disable tmpfs on /tmp (not everyone has enough RAM to extract archives of around 1GB on a tmpfs)
+# https://bbs.archlinux.org/viewtopic.php?id=148380
+sudo systemctl mask tmp.mount

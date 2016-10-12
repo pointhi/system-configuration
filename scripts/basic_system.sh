@@ -44,3 +44,7 @@ gsettings set org.gnome.nautilus.preferences enable-interactive-search true
 # disable tmpfs on /tmp (not everyone has enough RAM to extract archives of around 1GB on a tmpfs)
 # https://bbs.archlinux.org/viewtopic.php?id=148380
 sudo systemctl mask tmp.mount
+
+# 8192 is way to low for my usage cases
+# https://bugs.archlinux.org/task/47830
+echo "fs.inotify.max_user_watches = 262144" | sudo tee --append /etc/sysctl.conf > /dev/null

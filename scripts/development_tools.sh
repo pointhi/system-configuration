@@ -36,6 +36,11 @@ sudo pacman -S eclipse-java
 
 sudo pacman -S atom
 
+
+### Embedded software
+
+sudo pacman -S openocd
+
 yaourt -S arduino
 
 
@@ -44,6 +49,8 @@ yaourt -S arduino
 sudo pacman -S kicad kicad-library kicad-library-3d # Electronic schematic and printed circuit board (PCB) design tools
 
 sudo pacman -S qucs # An integrated circuit simulator with a graphical user interface
+
+sudo pacman -S pulseview
 
 
 ### Meachanical development

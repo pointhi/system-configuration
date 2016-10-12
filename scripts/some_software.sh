@@ -23,6 +23,7 @@ sudo pacman -S vlc
 
 sudo pacman -S musescore # Create, play and print beautiful sheet music
 
+sudo pacman -S kdegraphics-okular ebook-tools kdegraphics-mobipocket
 
 ### Visualisation Programs
 

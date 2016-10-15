@@ -47,4 +47,4 @@ sudo systemctl mask tmp.mount
 
 # 8192 is way to low for my usage cases
 # https://bugs.archlinux.org/task/47830
-echo "fs.inotify.max_user_watches = 262144" | sudo tee --append /etc/sysctl.conf > /dev/null
+echo fs.inotify.max_user_watches=524288 | sudo tee /etc/sysctl.d/40-max-user-watches.conf

@@ -31,6 +31,8 @@ sudo pacman -S gedit gedit-plugins gedit-code-assistance clang vala ruby-dbus li
 #sudo /bin/su -c "echo 'EDITOR=\"/usr/bin/gedit\"' >> /etc/yaourtrc" # set gedit as default for yaourt # TODO: test change
 
 sudo pacman -S eclipse-java
+# http://stackoverflow.com/a/3572010
+sudo sed -i 's/Exec=eclipse/Exec=env SWT_GTK3=0 eclipse/g' /usr/share/applications/eclipse.desktop
 
 #sudo pacman -S intellij-idea-community-edition
 

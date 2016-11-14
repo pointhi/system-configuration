@@ -2,4 +2,4 @@
 
 sudo pacman -S polari
 
-yaourt -S skype
+yaourt -S rambox-bin

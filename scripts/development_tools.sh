@@ -10,6 +10,7 @@ sudo archlinux-java set java-8-openjdk  # use openjdk-8 by default
 
 ### Python
 
+sudo pacman -S python-pip python2-pip
 sudo pacman -S python-pylint python2-pylint
 
 

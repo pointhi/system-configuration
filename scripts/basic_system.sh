@@ -36,6 +36,19 @@ yaourt -S nautilus-typeahead
 
 sudo pacman -S gnome-clocks # TODO: 24 hour format?
 sudo pacman -S gnome-characters
+sudo pacmam -S gnome-maps
+sudo pacman -S gnome-power-manager
+
+sudo pacman -S alacarte
+
+### Printer and scanner support
+
+yaourt -S cnijfilter-mx470series
+
+sudo pacman -S sane
+sudo pacman -S simple-scan
+
+sudo usermod -aG scanner $USER
 
 ### Some system settings
 

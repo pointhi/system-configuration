@@ -30,3 +30,8 @@ sudo pacman -S kdegraphics-okular ebook-tools kdegraphics-mobipocket
 sudo pacman -S dia # diagram editor
 
 sudo pacman -S graphviz xdot # graph visualisation
+
+### Security, Network
+
+sudo pacman -S gnome-nettool nmap
+sudo pacman -S wireshark-gtk

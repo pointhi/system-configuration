@@ -41,6 +41,12 @@ sudo pacman -S gnome-power-manager
 
 sudo pacman -S alacarte
 
+
+### Desktop integration
+
+yaourt -S chrome-gnome-shell-git
+
+
 ### Printer and scanner support
 
 yaourt -S cnijfilter-mx470series

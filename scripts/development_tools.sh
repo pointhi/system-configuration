@@ -35,7 +35,8 @@ sudo pacman -S eclipse-java
 # http://stackoverflow.com/a/3572010
 sudo sed -i 's/Exec=eclipse/Exec=env SWT_GTK3=0 eclipse/g' /usr/share/applications/eclipse.desktop
 
-#sudo pacman -S intellij-idea-community-edition
+sudo pacman -S intellij-idea-community-edition
+yaourt -S pycharm-community
 
 sudo pacman -S atom
 

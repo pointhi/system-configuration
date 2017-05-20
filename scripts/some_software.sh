@@ -5,12 +5,13 @@
 sudo pacman -S thunderbird thunderbird-i18n-de
 
 
-### Download Programs
+### Download Programs, tagger
 
 sudo pacman -S transmission-gtk # torrent downloader
 
 yaourt -S jdownloader2 # general downloader
 
+sudo pacman -S easytag
 
 ### Media Programs
 
@@ -24,6 +25,8 @@ sudo pacman -S vlc
 sudo pacman -S musescore # Create, play and print beautiful sheet music
 
 sudo pacman -S kdegraphics-okular ebook-tools kdegraphics-mobipocket
+
+yaourt -S banshee
 
 ### Visualisation Programs
 

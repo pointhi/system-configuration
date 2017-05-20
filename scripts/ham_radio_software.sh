@@ -15,7 +15,7 @@ yaourt -S fldigi
 ### Protocols
 
 yaourt -S ax25-tools
-
+yaourt -S wspr-svn
 
 ### Management Programs
 

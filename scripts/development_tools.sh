@@ -50,7 +50,7 @@ yaourt -S arduino
 
 ### Electonic/Hardware development
 
-sudo pacman -S kicad kicad-library kicad-library-3d # Electronic schematic and printed circuit board (PCB) design tools
+#sudo pacman -S kicad kicad-library kicad-library-3d # Electronic schematic and printed circuit board (PCB) design tools
 
 sudo pacman -S qucs # An integrated circuit simulator with a graphical user interface
 

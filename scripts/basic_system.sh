@@ -13,7 +13,8 @@ USER_TEMPLATE_DIR="$HOME_DIR/Vorlagen"  # TODO: more reliable way to get dir?
 sudo pacman -S gdm gnome-screensaver
 sudo systemctl disable lightdm.service
 sudo systemctl enable gdm.service
-
+gsettings set org.gnome.desktop.screensaver lock-enabled true
+sudo pacman -R lightdm-webkit2-greeter lightdm light-locker gnome-shell-extension-status-menu-buttons light-locker-settings
 
 ### Bash
 
@@ -32,7 +33,7 @@ cp "$SCRIPT_TEMPLATE_DIR/"* "$USER_TEMPLATE_DIR/"
 
 sudo pacman -S dconf-editor
 
-yaourt -S nautilus-typeahead
+#yaourt -S nautilus-typeahead
 
 sudo pacman -S gnome-clocks # TODO: 24 hour format?
 sudo pacman -S gnome-characters
@@ -62,7 +63,7 @@ gsettings set org.gnome.nautilus.preferences enable-interactive-search true
 
 # disable tmpfs on /tmp (not everyone has enough RAM to extract archives of around 1GB on a tmpfs)
 # https://bbs.archlinux.org/viewtopic.php?id=148380
-sudo systemctl mask tmp.mount
+#sudo systemctl mask tmp.mount
 
 # 8192 is way to low for my usage cases
 # https://bugs.archlinux.org/task/47830

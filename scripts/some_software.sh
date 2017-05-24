@@ -9,7 +9,13 @@ sudo pacman -S thunderbird thunderbird-i18n-de
 
 sudo pacman -S transmission-gtk # torrent downloader
 
-yaourt -S jdownloader2 # general downloader
+#yaourt -S jdownloader2 # general downloader
+
+sudo pacman -S youtube-dl
+echo "
+# add alias for youtube-dl to download audio files
+alias youtube-dl-audio=\"youtube-dl -x --audio-format vorbis --recode-video ogg --audio-quality 9\"
+" >> ~/.bashrc
 
 sudo pacman -S easytag
 
@@ -26,7 +32,7 @@ sudo pacman -S musescore # Create, play and print beautiful sheet music
 
 sudo pacman -S kdegraphics-okular ebook-tools kdegraphics-mobipocket
 
-yaourt -S banshee
+#yaourt -S banshee
 
 ### Visualisation Programs
 

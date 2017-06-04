@@ -22,6 +22,9 @@ sudo pacman -S easytag
 ### Media Programs
 
 sudo pacman -S krita
+
+sudo pacman -S ffmpeg opencolorio poppler-qt5
+
 sudo pacman -S gimp
 
 sudo pacman -S inkscape

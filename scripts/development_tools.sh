@@ -31,6 +31,12 @@ sudo pacman -S cloc # code line counter
 sudo pacman -S gedit gedit-plugins gedit-code-assistance clang vala ruby-dbus libgit2-glib gucharmap
 #sudo /bin/su -c "echo 'EDITOR=\"/usr/bin/gedit\"' >> /etc/yaourtrc" # set gedit as default for yaourt # TODO: test change
 
+# add assembly dialects to language-specs
+sudo wget "https://wiki.gnome.org/Projects/GtkSourceView/LanguageDefinitions?action=AttachFile&do=get&target=asm-intel.lang" -O "/usr/share/gtksourceview-3.0/language-specs/asm-intel.lang"
+sudo wget "https://wiki.gnome.org/Projects/GtkSourceView/LanguageDefinitions?action=AttachFile&do=get&target=i386asm.lang" -O "/usr/share/gtksourceview-3.0/language-specs/asm-att.lang"
+sudo sed -i "s/i386 Assembler/Assembler (ATT)/g" /usr/share/gtksourceview-3.0/language-specs/asm-att.lang
+sudo wget "https://raw.githubusercontent.com/pointhi/Mips-Assembly-Syntax-Highlighting/master/mal.lang" -O "/usr/share/gtksourceview-3.0/language-specs/asm-mips.lang"
+
 sudo pacman -S eclipse-java
 # http://stackoverflow.com/a/3572010
 sudo sed -i 's/Exec=eclipse/Exec=env SWT_GTK3=0 eclipse/g' /usr/share/applications/eclipse.desktop

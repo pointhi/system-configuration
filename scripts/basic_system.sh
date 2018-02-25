@@ -60,7 +60,10 @@ sudo usermod -aG scanner $USER
 
 ### Fonts
 
+sudo pacman -S noto-fonts
+sudo pacman -S noto-fonts-cjk
 sudo pacman -S noto-fonts-emoji
+sudo pacman -S noto-fonts-extra
 
 
 ### Some system settings

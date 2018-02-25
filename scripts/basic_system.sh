@@ -57,6 +57,12 @@ sudo pacman -S simple-scan
 
 sudo usermod -aG scanner $USER
 
+
+### Fonts
+
+sudo pacman -S noto-fonts-emoji
+
+
 ### Some system settings
 
 gsettings set org.gnome.nautilus.preferences enable-interactive-search true

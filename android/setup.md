@@ -39,6 +39,13 @@ Place the downloaded files onto the sd card (don't unzip them)
 
 Install them using the recovery
 
+## Flash ROM with ADB Sideloading
+
+```
+adb sideload lineage-14.1-20171013-nightly-yuga-signed.zip
+adb sideload addonsu-arm-signed.zip
+```
+
 ## Add FDroid
 
 ```

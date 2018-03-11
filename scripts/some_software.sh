@@ -37,6 +37,13 @@ sudo pacman -S kdegraphics-okular ebook-tools kdegraphics-mobipocket
 
 #yaourt -S banshee
 
+### Text Programs
+
+sudo pacman -S libreoffice-fresh libreoffice-fresh-de libreoffice-fresh-en-GB
+
+sudo pacman -S texlive-most
+sudo pacman -S texstudio
+
 ### Visualisation Programs
 
 sudo pacman -S dia # diagram editor

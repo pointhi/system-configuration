@@ -12,3 +12,4 @@ git config --global user.email "$USER_EMAIL"
 git config --global user.name "Thomas Pointhuber"
 
 git config --global core.editor "nano"
+git config --global core.pager 'less -XF'

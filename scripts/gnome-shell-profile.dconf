@@ -1,0 +1,16 @@
+[/]
+foreground-color='rgb(211,215,207)'
+visible-name='pointhi'
+palette=['rgb(46,52,54)', 'rgb(215,22,22)', 'rgb(105,201,15)', 'rgb(196,160,0)', 'rgb(87,140,207)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(239,41,41)', 'rgb(138,226,52)', 'rgb(252,233,79)', 'rgb(126,174,226)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']
+bold-is-bright=true
+default-size-rows=25
+cursor-shape='block'
+cursor-colors-set=false
+highlight-colors-set=false
+use-system-font=true
+use-theme-colors=false
+bold-color-same-as-fg=true
+cursor-blink-mode='system'
+background-color='rgb(46,52,54)'
+audible-bell=true
+scrollback-lines=100000

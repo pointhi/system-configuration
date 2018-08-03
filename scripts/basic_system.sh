@@ -77,3 +77,8 @@ gsettings set org.gnome.nautilus.preferences enable-interactive-search true
 # 8192 is way to low for my usage cases
 # https://bugs.archlinux.org/task/47830
 echo fs.inotify.max_user_watches=524288 | sudo tee /etc/sysctl.d/40-max-user-watches.conf
+
+# Auto nice daemon
+yaourt -S ananicy-git
+sudo systemctl enable ananicy
+sudo systemctl start ananicy

@@ -4,6 +4,7 @@
 
 sudo pacman -S jre7-openjdk jdk7-openjdk openjdk7-src openjdk7-doc
 sudo pacman -S jre8-openjdk jdk8-openjdk openjdk8-src openjdk8-doc
+sudo pacman -S jre10-openjdk jdk10-openjdk openjdk10-doc openjdk10-src
 
 sudo archlinux-java set java-8-openjdk  # use openjdk-8 by default
 

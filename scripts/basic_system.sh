@@ -57,6 +57,7 @@ yaourt -S chrome-gnome-shell-git
 
 
 # DCP-J572DW
+yaourt -S brother-dcpj572dw
 yaourt -S brscan4
 sudo brsaneconfig4 -a name="DCP-J572DW" model="DCP-J572DW" ip=10.1.1.100
 

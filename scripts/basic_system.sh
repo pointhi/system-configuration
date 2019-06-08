@@ -24,6 +24,9 @@ export HISTCONTROL=ignoreboth:erasedups
 " >> ~/.bashrc
 
 
+### TODO: keyboard layout
+# https://www.unix.com/man-page/centos/5/vconsole.conf/
+
 ### Add file templates
 
 cp "$SCRIPT_TEMPLATE_DIR/"* "$USER_TEMPLATE_DIR/"
@@ -50,7 +53,12 @@ yaourt -S chrome-gnome-shell-git
 
 ### Printer and scanner support
 
-yaourt -S cnijfilter-mx470series
+#yaourt -S cnijfilter-mx470series
+
+
+# DCP-J572DW
+yaourt -S brscan4
+sudo brsaneconfig4 -a name="DCP-J572DW" model="DCP-J572DW" ip=10.1.1.100
 
 sudo pacman -S sane
 sudo pacman -S simple-scan
@@ -76,9 +84,14 @@ gsettings set org.gnome.nautilus.preferences enable-interactive-search true
 
 # 8192 is way to low for my usage cases
 # https://bugs.archlinux.org/task/47830
-echo fs.inotify.max_user_watches=524288 | sudo tee /etc/sysctl.d/40-max-user-watches.conf
+echo "fs.inotify.max_user_watches = 524288" | sudo tee /etc/sysctl.d/40-max-user-watches.conf
+# Don't swap as fast as defined by default
+echo "vm.swappiness = 20" | sudo tee /etc/sysctl.d/40-vm-swappiness.conf
 
 # Auto nice daemon
 yaourt -S ananicy-git
 sudo systemctl enable ananicy
 sudo systemctl start ananicy
+
+# Backup tool
+sudo pacman -S deja-dup
